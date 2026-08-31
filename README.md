@@ -39,7 +39,7 @@ alone, not just to clean images from a single source.
 ## Setup
 
 ```bash
-pip install torch torchvision transformers datasets scikit-learn pandas tqdm
+pip install torch torchvision transformers datasets scikit-learn pandas tqdm sentencepiece protobuf
 ```
 
 ## Reproducing results
@@ -63,6 +63,7 @@ pip install torch torchvision transformers datasets scikit-learn pandas tqdm
 ## Scoring your own images
 
 ```bash
+pip install -r requirements.txt
 python score_directory.py \
     --input_dir path/to/images \
     --output_json predictions.json \
