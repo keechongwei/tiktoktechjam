@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Model checkpoints & training output
+mcq_finetuned_model/
+*.safetensors
+*.bin
+*.pt
+
+# Datasets / large local caches
+data/
+*.zip
+.cache/
+huggingface/
+
+# Inference output
+predictions.json
+*.log
+
+# OS
+.DS_Store
